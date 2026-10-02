@@ -1,0 +1,46 @@
+# Build outputs and local verification captures
+/bin/
+/obj/
+/outputs/
+/work/
+/logs/
+/captures/
+/.testdata/
+
+# Media stays on disk; back it up separately (see docs/Git管理说明.md).
+/assets/source/
+/assets/generated/
+*.mp4
+*.mov
+*.avi
+*.webm
+*.exe
+*.dll
+*.pdb
+*.zip
+*.7z
+
+# Python and editor caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.vs/
+*.user
+*.suo
+
+# Local secrets and runtime user data
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+settings.xml
+profile.xml
+profile.xml.*
+*.tmp
+*.log
+Thumbs.db
+Desktop.ini
